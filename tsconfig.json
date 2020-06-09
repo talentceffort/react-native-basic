@@ -1,9 +1,6 @@
 {
   "compilerOptions": {
     "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "isolatedModules": true,
     "sourceMap": true,
     "jsx": "react",
     "lib": ["es6"], // 기본 type definition 라이브러리를 어떤 것을 사용할 것이냐
@@ -11,10 +8,16 @@
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noImplicitAny": false,
-    "strictNullChecks": true,
     "noEmit": true,
     "strict": true,
-    "target": "esnext"
+    "target": "esnext",
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "rootDir": "src",
+    "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": true,
   },
   "exclude": [
     "node_modules",

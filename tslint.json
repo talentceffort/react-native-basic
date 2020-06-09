@@ -4,6 +4,7 @@
     "exclude": ["config/**/*.js", "node_modules/**/*."]
   },
   "rules": {
+    "max-classes-per-file": false,
     "import-name": [false],
     "variable-name": [
       true,
